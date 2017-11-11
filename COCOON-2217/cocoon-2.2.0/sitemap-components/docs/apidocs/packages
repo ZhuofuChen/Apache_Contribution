@@ -1,0 +1,8 @@
+org.apache.cocoon.acting
+org.apache.cocoon.components.source.impl
+org.apache.cocoon.components.modules.input
+org.apache.cocoon.components.modules.output
+org.apache.cocoon.selection
+org.apache.cocoon.matching.modular
+org.apache.cocoon.matching
+org.apache.cocoon.generation

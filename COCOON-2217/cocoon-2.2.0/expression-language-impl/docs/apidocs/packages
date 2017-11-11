@@ -1,0 +1,8 @@
+org.apache.cocoon.el.impl.helpers
+org.apache.cocoon.el.impl.jexl
+org.apache.cocoon.el.impl.parsing
+org.apache.cocoon.el.impl.javascript
+org.apache.cocoon.el.impl.objectmodel
+org.apache.cocoon.el.impl.jxpath
+org.apache.cocoon.el.impl
+org.apache.cocoon.template.expression

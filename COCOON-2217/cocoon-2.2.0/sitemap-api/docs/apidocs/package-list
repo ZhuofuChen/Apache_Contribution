@@ -1,0 +1,12 @@
+org.apache.cocoon
+org.apache.cocoon.acting
+org.apache.cocoon.classloader
+org.apache.cocoon.classloader.reloading
+org.apache.cocoon.components.flow
+org.apache.cocoon.components.modules.input
+org.apache.cocoon.components.modules.output
+org.apache.cocoon.components.notification
+org.apache.cocoon.matching
+org.apache.cocoon.processing
+org.apache.cocoon.selection
+org.apache.cocoon.sitemap

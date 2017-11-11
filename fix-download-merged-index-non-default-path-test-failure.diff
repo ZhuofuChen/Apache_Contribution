@@ -1,0 +1,14 @@
+Index: archiva-modules/archiva-web/archiva-web-common/src/test/java/org/apache/archiva/DownloadMergedIndexNonDefaultPathTest.java
+===================================================================
+--- 
+archiva-modules/archiva-web/archiva-web-common/src/test/java/org/apache/archiva/DownloadMergedIndexNonDefaultPathTest.java	(revision 1471486)
++++ archiva-modules/archiva-web/archiva-web-common/src/test/java/org/apache/archiva/DownloadMergedIndexNonDefaultPathTest.java	(working copy)
+@@ -172,7 +172,7 @@
+         proxyConnector.setTargetRepoId( remoteId );
+         proxyConnectorService.addProxyConnector( proxyConnector );
+ 
+-        repositoriesService.scheduleDownloadRemoteIndex( "all-merged", true, true );
++        repositoriesService.scheduleDownloadRemoteIndex( remoteId, true, true );
+ 
+         // wait a bit
+         timeout = 20000;

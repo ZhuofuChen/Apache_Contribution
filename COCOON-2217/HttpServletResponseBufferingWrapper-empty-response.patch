@@ -1,0 +1,17 @@
+Index: /Users/robinwyles/Work/EclipseWorkspace/cocoon-trunk/subprojects/cocoon-servlet-service/cocoon-servlet-service-impl/src/main/java/org/apache/cocoon/servletservice/HttpServletResponseBufferingWrapper.java
+===================================================================
+--- /Users/robinwyles/Work/EclipseWorkspace/cocoon-trunk/subprojects/cocoon-servlet-service/cocoon-servlet-service-impl/src/main/java/org/apache/cocoon/servletservice/HttpServletResponseBufferingWrapper.java	(revision 674813)
++++ /Users/robinwyles/Work/EclipseWorkspace/cocoon-trunk/subprojects/cocoon-servlet-service/cocoon-servlet-service-impl/src/main/java/org/apache/cocoon/servletservice/HttpServletResponseBufferingWrapper.java	(working copy)
+@@ -241,8 +241,10 @@
+                             "Error occured while writing to printWriter.");
+                 this.printWriter.close();
+             }
+-
+-            outputStream.writeTo(super.getOutputStream());
++            
++            if (outputStream != null ) {
++            	outputStream.writeTo(super.getOutputStream());
++            }
+         }
+     }
+ 

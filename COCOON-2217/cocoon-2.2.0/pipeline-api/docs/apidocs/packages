@@ -1,0 +1,12 @@
+org.apache.cocoon.components.pipeline
+org.apache.cocoon.generation
+org.apache.cocoon.caching
+org.apache.cocoon.xml.xlink
+org.apache.cocoon.xml
+org.apache.cocoon.sitemap
+org.apache.cocoon.environment
+org.apache.cocoon.transformation
+org.apache.cocoon.reading
+org.apache.cocoon.util.location
+org.apache.cocoon.serialization
+org.apache.cocoon

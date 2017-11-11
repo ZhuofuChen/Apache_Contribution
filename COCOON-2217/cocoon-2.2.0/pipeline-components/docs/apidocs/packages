@@ -1,0 +1,9 @@
+org.apache.cocoon.components.source.impl
+org.apache.cocoon.components.xpointer.parser
+org.apache.cocoon.components.xpointer
+org.apache.cocoon.components.xslt
+org.apache.cocoon.transformation.pagination
+org.apache.cocoon.transformation
+org.apache.cocoon.reading
+org.apache.cocoon.generation
+org.apache.cocoon.serialization

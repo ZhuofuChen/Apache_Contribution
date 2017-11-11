@@ -1,0 +1,43 @@
+-classpath '/home/rpoetz/cocoon/trunk/core/target/checkout/cocoon-pipeline/cocoon-pipeline-api/target/classes:/home/rpoetz/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/home/rpoetz/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/home/rpoetz/.m2/repository/org/apache/excalibur/components/excalibur-sourceresolve/2.2.3/excalibur-sourceresolve-2.2.3.jar:/home/rpoetz/.m2/repository/org/apache/excalibur/components/excalibur-xmlutil/2.2.1/excalibur-xmlutil-2.2.1.jar:/home/rpoetz/.m2/repository/org/apache/avalon/framework/avalon-framework-api/4.3.1/avalon-framework-api-4.3.1.jar'
+ -protected
+-sourcepath
+'/home/rpoetz/cocoon/trunk/core/target/checkout/cocoon-pipeline/cocoon-pipeline-api/src/main/java'
+-author
+-bottom
+'Copyright © 1999-2008 <a href="http://www.apache.org/">The Apache Software Foundation</a>. All Rights Reserved.'
+-charset
+'ISO-8859-1'
+-d
+'/home/rpoetz/cocoon/trunk/core/target/checkout/cocoon-pipeline/cocoon-pipeline-api/target/apidocs'
+-doctitle
+'Cocoon Pipeline API 1.0.0 API'
+-link
+'http://java.sun.com/j2se/1.4.2/docs/api'
+-link
+'http://static.springframework.org/spring/docs/2.5.x/api'
+-link
+'http://excalibur.apache.org/apidocs'
+-link
+'http://java.sun.com/j2ee/1.4/docs/api'
+-link
+'http://jakarta.apache.org/commons/collections/apidocs-COLLECTIONS_3_0'
+-link
+'http://jakarta.apache.org/commons/dbcp/apidocs'
+-link
+'http://jakarta.apache.org/commons/fileupload/apidocs'
+-link
+'http://jakarta.apache.org/commons/httpclient/apidocs'
+-link
+'http://jakarta.apache.org/commons/logging/apidocs'
+-link
+'http://jakarta.apache.org/commons/pool/apidocs'
+-link
+'http://logging.apache.org/log4j/docs/api'
+-link
+'http://jakarta.apache.org/regexp/apidocs'
+-link
+'http://jakarta.apache.org/velocity/api'
+-use
+-version
+-windowtitle
+'Cocoon Pipeline API 1.0.0 API'
